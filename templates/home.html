@@ -1,0 +1,13 @@
+<h1>
+    WORD COUNT
+</h1>
+
+<!--{{ hithere }}-->
+
+<form action="{% url 'count' %}" >
+
+    <textarea name="fulltext" id="" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Count!" />
+    <a href="{% url 'about' %}">About Us</a> 
+</form>
